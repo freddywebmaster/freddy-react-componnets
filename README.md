@@ -4,7 +4,7 @@ in this library you have many components to use!
 
 ## Documentation in StoryBook
 
-[StoryBook Deploy](https://link-url-here.org)
+[StoryBook Deploy](https://freddy-react-components.netlify.app)
 
 ## Github repository
 
