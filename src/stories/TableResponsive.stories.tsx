@@ -10,7 +10,7 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "components/TableResponsive",
+  title: "components/organisms/TableResponsive",
   component: TableResponsive,
 };
 
