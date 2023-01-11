@@ -14,7 +14,7 @@
     "build:cjs": "tsc --outDir ./dist/cjs",
     "build:esm": "tsc",
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
   },
   "keywords": [
     "react",
