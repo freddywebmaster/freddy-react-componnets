@@ -11,5 +11,4 @@ export interface ITableResponsive<T> {
     actions?: (item: T) => JSX.Element;
     actionsTitle?: string;
 }
-declare function TableResponsive<T>({ columns, data, actions, actionsTitle }: ITableResponsive<T>): JSX.Element;
-export default TableResponsive;
+export declare function TableResponsive<T>({ columns, data, actions, actionsTitle, }: ITableResponsive<T>): JSX.Element;

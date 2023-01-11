@@ -1,5 +1,5 @@
 import React from "react";
-function TableResponsive({ columns, data, actions, actionsTitle }) {
+export function TableResponsive({ columns, data, actions, actionsTitle, }) {
     return (React.createElement("div", { className: "overflow-x-scroll" },
         React.createElement("table", { className: "bg-gray-200 shadow-lg w-full rounded-lg" },
             React.createElement("thead", null, columns.length !== 0 && (React.createElement("tr", { className: "bg-blue-500 text-white" },
@@ -8,7 +8,7 @@ function TableResponsive({ columns, data, actions, actionsTitle }) {
                         return React.createElement("th", { className: "hidden", key: i });
                     return (React.createElement("th", { className: "text-sm text-left px-5 py-4", key: i }, col.title));
                 }),
-                actions && React.createElement("th", { className: "text-sm" }, actionsTitle || "Actions")))),
+                actions && (React.createElement("th", { className: "text-sm" }, actionsTitle || "Actions"))))),
             React.createElement("tbody", null, data.length !== 0 &&
                 data.map((item, i) => {
                     return (React.createElement("tr", { className: `${i % 2 === 0 ? "bg-white" : "bg-gray-100"} hover:bg-gray-200`, key: i },
@@ -20,5 +20,4 @@ function TableResponsive({ columns, data, actions, actionsTitle }) {
                         actions && (React.createElement("th", { className: `cursor-pointer px-5` }, actions(item)))));
                 })))));
 }
-export default TableResponsive;
 //# sourceMappingURL=TableResponsive.js.map

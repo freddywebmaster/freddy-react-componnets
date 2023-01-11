@@ -15,7 +15,12 @@ export interface ITableResponsive<T> {
   actionsTitle?: string;
 }
 
-function TableResponsive<T>({ columns, data, actions, actionsTitle }: ITableResponsive<T>) {
+export function TableResponsive<T>({
+  columns,
+  data,
+  actions,
+  actionsTitle,
+}: ITableResponsive<T>) {
   return (
     <div className="overflow-x-scroll">
       <table className="bg-gray-200 shadow-lg w-full rounded-lg">
@@ -31,7 +36,9 @@ function TableResponsive<T>({ columns, data, actions, actionsTitle }: ITableResp
                 );
               })}
 
-              {actions && <th className="text-sm">{actionsTitle || "Actions"}</th>}
+              {actions && (
+                <th className="text-sm">{actionsTitle || "Actions"}</th>
+              )}
             </tr>
           )}
         </thead>
@@ -84,5 +91,3 @@ function TableResponsive<T>({ columns, data, actions, actionsTitle }: ITableResp
     </div>
   );
 }
-
-export default TableResponsive;

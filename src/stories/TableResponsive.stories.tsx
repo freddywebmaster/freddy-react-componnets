@@ -1,6 +1,7 @@
 import React from "react";
-import TableResponsive, {
+import {
   ITableResponsive,
+  TableResponsive,
 } from "../components/organisms/TableResponsive";
 import "../styles/tailwind.css";
 

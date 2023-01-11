@@ -1,1 +1,2 @@
-export * from "./TableResponsive";
+import { ColumnTableResponsive, ITableResponsive, TableResponsive } from "./TableResponsive";
+export { ColumnTableResponsive, ITableResponsive, TableResponsive };

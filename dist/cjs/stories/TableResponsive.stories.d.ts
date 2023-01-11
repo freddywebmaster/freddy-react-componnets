@@ -1,4 +1,4 @@
-import TableResponsive from "../components/organisms/TableResponsive";
+import { TableResponsive } from "../components/organisms/TableResponsive";
 import "../styles/tailwind.css";
 declare const _default: {
     title: string;

@@ -1,5 +1,5 @@
 import React from "react";
-import TableResponsive from "../components/organisms/TableResponsive";
+import { TableResponsive, } from "../components/organisms/TableResponsive";
 import "../styles/tailwind.css";
 export default {
     /* 👇 The title prop is optional.
