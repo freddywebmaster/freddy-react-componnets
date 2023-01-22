@@ -1,2 +1,2 @@
-import * as components from "./components";
-export default components;
+import { ColumnTableResponsive, ITableResponsive, TableResponsive } from "./components";
+export { ColumnTableResponsive, ITableResponsive, TableResponsive };

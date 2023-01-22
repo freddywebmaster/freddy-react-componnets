@@ -1,3 +1,3 @@
-import * as components from "./components";
-export default components;
+import { TableResponsive, } from "./components";
+export { TableResponsive };
 //# sourceMappingURL=index.js.map
