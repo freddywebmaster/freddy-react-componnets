@@ -1,6 +1,6 @@
 {
   "name": "freddy-react-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "library of my components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -50,6 +50,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "postcss": "^8.4.21"
+    "postcss": "^8.4.21",
+    "react-icons": "^4.7.1"
   }
 }
